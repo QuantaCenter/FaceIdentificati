@@ -183,7 +183,7 @@ public class PredictMain {
 		String aline = "";
 		while((aline = reader.readLine()) != null){
 			System.out.println("===========================" + aline);
-			if(aline.equals("1.0")){
+			if(aline.equals("2.0")){
 				AudioPlayer.player.start(new FileInputStream(new File("a.wav")));
 			}/*else{
 				AudioPlayer.player.stop(audioInStream);
